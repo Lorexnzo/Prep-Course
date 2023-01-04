@@ -207,7 +207,7 @@ var objeto1 = {
 
     nickname: 'PedroJulianComeViejas78',
     edad: 1004,
-    getEdad: getEdad,
+    getEdad: getEdad, //las funciones guardadas en objetos se denominan metodos
     
 }
 
@@ -215,6 +215,12 @@ objeto0.getEdad(); //el metodo getEdad invoca a la funcion, y this identifica la
 objeto1.getEdad();
 
 //HASTA ACA TERMINA EL VIDEO PERO SIGUE EN LA WEB PAGE, bucles for in y demas ejemplos con this, reviso en proximos files.js
+
+//Contexto global
+
+//console.log(this === window); es true en paginas web, eso verifica lo del contexto global y el objeto main en donde estamos posados
+
+
 
 
 
