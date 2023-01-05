@@ -106,5 +106,28 @@ En cambio indicando metodo en el contructor, 1 metodo para cada objeto = 10 meto
 
 console.log('----------------');
 
+//Agregar métodos a una clase, sin usar prototype
+
+function Clase_04(nombre, edad) {
+    
+    this.nombre = nombre;
+    this.edad = edad;
+
+    this.metodoViejo = function () { console.log('fjdaslkfjda'); }; //instanciandolo directamente aca
+}
+
+//así no funca, la unica forma que conozco es mediante prototype
+Clase_04.metodoNuevo = function () { console.log('que onda perri'); }; //no funca asi perro
+
+//no se como meter metodos a la clase directamente sin que sea por el prototype
+//así si va de 10, y es la forma mas correcta de añadir metodos
+Clase_04.prototype.metodoNuevo = function () { console.log (this.nombre + ', ' + this.edad + ' años'); };
+
+var objeto5 = new Clase_04('pepe', 99);
+
+console.log(objeto5);
+
+objeto5.metodoNuevo();
+
 
 

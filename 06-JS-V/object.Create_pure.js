@@ -15,7 +15,7 @@ var Persona = { //definimos un objeto constructor?
 
 var juan = Object.create(Persona);
 //al crear el objeto juan, usamos el constructor objeto Persona, pero todas las
-//propiedades se guardan en el prototype de juan que es Persona ¿?
+//propiedades se guardan en el prototype de juan que ahora es Persona ¿?
 
 console.log(juan); //{} parece un objeto vacio, pero juan tiene realmente las propiedades, solo que las saca de su prototipo
 
@@ -23,7 +23,7 @@ console.log(juan.__proto__); //aca si tiene
 
 //Por eso este metodo es medio confuso para el programador, pero es el tecnicamente mas correcto
 
-//Cuando creamos a juan, juan tiene como proto a persona, pero a su vez juan es un ojeto vacio
+//Cuando creamos a juan, juan tiene como proto a persona, pero a su vez juan es un objeto vacio
 
 var juan2 = Object.create(Persona); //me crea el objeto usando como prototipo el objeto que pongamos en el argumento
 var juan3 = Object.create(Persona);
@@ -51,5 +51,6 @@ Object.assign(Persona, { color: 'negro', apellido: 'garcia' });
 //a persona le estoy creando nuevas propiedades que luego van a tener los objetos creados
 
 var juan5 = Object.create(Persona);
-
+//osea, el prototipo de la variable juan5 va a ser literalmente el argumento que le pasemos
+//que a su vez tiene que ser un objeto, luego juan5 es un objeto con las propiedades de Persona
 console.log(juan5.__proto__); //== console.log(Persona);
