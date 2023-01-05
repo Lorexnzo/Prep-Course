@@ -95,5 +95,7 @@ for (let index = 0; index < array.length; index++) {
     //aca abajo no se ejecuta nada
 }
 
-throw new 'Error'; //este es otro tipo de statement de salto
+//throw new 'Error'; //este es otro tipo de statement de salto
+
+console.log(!!'toni'); // true
 
