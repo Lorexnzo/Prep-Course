@@ -1,0 +1,43 @@
+Conceptos:
+Expressions
+Expresiones: aritméticas, strings, logicas, primarias, de asignacion, con efectos secundarios (side effects)
+Statements (sentencias): Declaration Statements, Conditional Statements, Loops (bucles) y Jumps (saltos), Expression Statements
+
+Expressions y Operators: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators
+
+JS I:
+Variables (var, let, const) 
+Tipos de Datos (Strings, Numbers, Boolean) 
+Operadores: Precedencia de Operadores y Asociatividad 
+Math 
+Objetos globales y métodos (console.log, Math)
+Introducción a las Funciones (Anatomía, Argumentos, Declaración return y scope)
+Control de flujo y operadores de comparación : https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Control_flow_and_error_handling
+JS II:
+Undefined y null : https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/undefined ; https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Operators/null
+Veracidad
+Operadores de comparación
+Flujos de control
+Operadores lógicos 
+Bucles for, while, do while
+Arguments (propiedad de funciones)
+JS III:
+Introducción a los arreglos: (.length, Acceso a elementos de una matriz, Asignación, .push, .pop, .unshift & .shift)
+Bucles con arreglos
+JS IV:
+Introduccion a los Objetos: (key:value, acceder a los valores, asignacion de valores)
+Eliminando Propiedades
+Métodos
+Bucles for...in
+Palabra clave this
+Objetos en JS
+JS V:
+Clases (Class e instanciacion pseudo-clasica)
+Prototype (Object.create Object. assign)
+Herencia Clásica
+Herencia en JS (Contructores anidados)
+JS VI:
+Callbacks
+Más metodos de Arrays (.forEach, .reduce, .map)
+
+

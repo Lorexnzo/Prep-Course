@@ -1,0 +1,40 @@
+JS I
+Intro JS
+https://www.udacity.com/course/intro-to-javascript--ud803
+MDN JS
+https://developer.mozilla.org/en-US/docs/Web/JavaScript
+JS I
+Variables
+https://developer.mozilla.org/es/docs/Learn/JavaScript/First_steps/Variables
+JS II
+Switch
+https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/switch
+Do while
+https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/do...while
+Operadores de comparacion
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators
+Control flow (if else)
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else
+For Loops
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for
+JS III
+Arreglos
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
+JS IV
+Objetos
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object
+This
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this
+For in loop
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...in
+JS V:
+Clases
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes
+Prototype
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/Prototype
+JS VI:
+Callbacks functions
+http://javascriptissexy.com/understand-javascript-callback-functions-and-use-them/
+https://developer.mozilla.org/en-US/docs/Glossary/Callback_function
+Array metodos
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array

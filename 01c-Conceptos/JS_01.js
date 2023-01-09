@@ -56,14 +56,23 @@ var age; //varible definida sin nada adentro, undefined
 
 var holis = null; //null es nada, no es ni 0 o una palabra vacia, es realmente nada.
 
+var indefinido = undefined;
+
 console.log(holis);
-console.log(age);
+console.log(age); //undefined
+console.log(indefinido || !indefinido);
+console.log(!!holis);
 
 //Operadores (+ * / -)
 
 var suma = 3 + 5; //esta forma se llama la infija, ya que los operadores se encuentran entre medio, el operador ENTRE los operandos
 
+//console.log(+ 3 5);
+
 console.log(1 + 3 * 5 / 3); //hace 1+3: 4*5:20/3 = 6
+//pero tambien puede ser por: 15/3 = 5 + 1 = 6
+console.log(1 - 3 * 2 - 2 / 2); //1 - 6 - 1 = -6
+//-2 * 2 = -4 -2 = -6/2 = -3
 
 //CASTEO DE DATOS
 
@@ -73,6 +82,13 @@ console.log('1' + '1'); //Convierto el numero a string, en este caso la suma de 
 //acá paso el casteo de datos.
 
 console.log(null + undefined); //= NaN (El resultado NO es un numero)
+
+console.log(1 + '1');
+
+var pepe = 'pepe';
+
+console.log(pepe += ' hola'); // pepe = 'pepe hola'
+console.log(pepe);
 
 //Tambien existe la prefija y sufija
 

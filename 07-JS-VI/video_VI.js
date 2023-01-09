@@ -247,4 +247,3 @@ console.log(multiReduce); //factorial de 7
 
 
 
-
