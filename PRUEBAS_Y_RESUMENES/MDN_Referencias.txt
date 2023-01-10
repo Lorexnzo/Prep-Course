@@ -21,7 +21,7 @@ JS III
 Arreglos
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
 JS IV
-Objetos
+Objetos FALTA VER COMPLETO
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object
 This
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this

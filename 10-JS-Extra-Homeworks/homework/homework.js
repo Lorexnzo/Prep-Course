@@ -11,7 +11,20 @@ function deObjetoAmatriz(objeto){
       B: 2,
       C: 3
     }) ➞ [["D", 1], ["B", 2], ["C", 3]]*/
-  //Escribe tu código aquí
+    //Escribe tu código aquí
+  
+  var matriz = [];
+  var contador = 0;  
+    
+  for (key in objeto) {
+
+    matriz[contador] = [];
+    matriz[contador][0] = key;
+    matriz[contador][1] = objeto[key];
+    contador++;
+
+  }
+  return matriz;
 }
 
 
