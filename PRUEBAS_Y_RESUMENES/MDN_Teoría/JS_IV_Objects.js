@@ -27,3 +27,18 @@ var myCar2 = {
 myCar2['color'] = 'red';
 
 console.log(myCar2);
+
+console.log('--------');
+
+https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Object/entries
+
+var objetoMyCar2ConvertidoToArray = Object.entries(myCar2);
+
+/*
+El método Object.entries() devuelve una matriz de pares propios de una propiedad enumerable [key, value] de un objeto dado.
+*/
+
+console.log(objetoMyCar2ConvertidoToArray);
+
+console.log(objetoMyCar2ConvertidoToArray[0][1]); //ford
+
