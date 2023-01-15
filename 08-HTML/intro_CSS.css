@@ -1,0 +1,26 @@
+/* 
+
+html {
+    color: red; color propiedad y red valor
+    font-size: 12px;
+}
+
+Formas de dar estilo.
+
+Usando el atributo style, es la forma primitiva mas simple, basicamente dandole estilos a cada tag de forma individual
+
+Usando el tag <style></stile> dentro del head en html
+
+Usando el tag <link> e importando el archivo separado CSS, lo mas recomendable.
+
+<link rel='hoja de estilos' href='styles.css'>
+
+*/
+
+/* Selectores */
+
+p {
+    color: red; /*Le aplicamos a todos los tags p color rojo*/
+}
+
+/*Otra forma es poniendole nombre a los tags html para poder identificarlos mediante 'id' o 'class'*/
