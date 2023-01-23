@@ -1,0 +1,23 @@
+/* Diferencia entre class (.) and id (#), ambos son para identificar elementos */
+/* Class sirve para generalizar, id aplica individualmente */
+h1 {
+    color: red;
+}
+
+img {
+    width: 150px;
+}
+
+#thirdDiv {
+    background-color: green;
+    height: 500px;
+    width: 600px;
+    padding: 50px;
+    border: 10px dotted violet;
+}
+
+#spanId {
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 50px;
+}
