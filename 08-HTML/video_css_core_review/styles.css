@@ -1,5 +1,6 @@
 /* Diferencia entre class (.) and id (#), ambos son para identificar elementos */
 /* Class sirve para generalizar, id aplica individualmente */
+
 h1 {
     color: red;
 }
