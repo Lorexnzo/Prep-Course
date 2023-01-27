@@ -1,0 +1,100 @@
+/* Box model: margin border padding content */
+
+.div_1{
+
+    text-align: center;
+
+    background-color: red;
+    height: 100px;
+    width: 100px;
+
+    padding: 100px;
+    /* margin: 100px; */
+    /* margin-left: 10px; */
+
+    /* Despues vemos lo que es Display (block, inline, none, grid, flex) */
+
+    /* div, p ya viene por defecto con display block, span, a por defecto con inline */
+
+    /* Podemos modificar cada uno */
+
+    /* El none lo que hace es ocultar, y desaparece tanto el espacio como el contenido */
+
+    /* display:none != visibility:hidden */
+
+    /* display flex permite alinear de una forma mas practica y sencilla, NO LO VEMOS AHORA */
+
+    /* Luego vamos a ver position */
+    
+}
+
+.span_4{
+
+    display: block;
+
+}
+
+.div_2{
+
+    text-align: center;
+
+    background-color: red;
+    height: 100px;
+    width: 100px;
+
+    padding: 100px;
+    /* display: none; */
+    visibility: hidden;
+
+}
+
+/* POSITION
+       static es por defecto, quedate en la pos en la que estas
+       relative, me permite moverlo desde la posicion inicial en la que estába originalmente
+       fixed, queda pegado en una posicion fija aunque el usuario scrolee para abajo (barra nav)
+       absolute, parecido al relative, pero en vez de moverlo desde su pos original, lo hace desde su contenedor padre
+*/
+
+.div_3{
+
+    text-align: center;
+
+    background-color: crimson;
+    height: 50px;
+    width: 50px;
+
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    
+}
+
+/* relative: de la posicion original lo movemos para algun otro lado */
+
+.div_4{
+
+    text-align: center;
+
+    background-color: cyan;
+    height: 80px;
+    width: 80px;
+
+    position: relative;
+    bottom: 50px;
+    left: 500px;
+
+}
+
+.div_5{
+
+    text-align: center;
+
+    background-color: cyan;
+    height: 80px;
+    width: 80px;
+
+    position: absolute;
+    bottom: 50px;
+    left: 500px;
+
+}
